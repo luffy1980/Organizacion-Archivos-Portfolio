@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+table {
+    margin: auto;
+    width: 85%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #222;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estados */
+.denegado {
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: bold;
+}
+
+.permitido {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.inactivo {
+    background-color: #ffcc00;
+    color: black;
+}

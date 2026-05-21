@@ -1,0 +1,27 @@
+Sistema de Control de Acceso
+
+Descripción:
+Este proyecto simula un sistema de control de acceso utilizando Python, PHP y archivos planos (JSON y TXT).
+Permite validar usuarios mediante un ID de tarjeta y registrar los intentos en un archivo de auditoría.
+
+Estructura:
+- data/usuarios.json → Contiene los usuarios autorizados
+- logs/auditoria.txt → Guarda el historial de accesos
+- python/control.py → Script principal de validación
+- web/index.php → Interfaz web
+- web/estilos.css → Diseño visual
+
+Funcionamiento:
+1. Ejecutar el script Python (control.py)
+2. Ingresar un ID de tarjeta
+3. El sistema valida si existe en el JSON
+4. Registra el resultado en auditoria.txt
+5. Visualizar los resultados en el navegador con PHP
+
+Requisitos:
+- Python instalado
+- Servidor local (XAMPP o similar)
+
+Notas:
+- El archivo auditoria.txt se actualiza automáticamente
+- El sistema utiliza manejo de errores para el JSON
