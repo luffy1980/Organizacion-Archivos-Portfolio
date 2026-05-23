@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reporte Final del Portafolio</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.5;
+}
+h1, h2, h3 {
+    color: #222;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 8px;
+}
+</style>
+</head>
+<body>
+
+<h1>Reporte Final del Portafolio en GitHub</h1>
+
+<p><strong>Instituto Tecnológico Superior de Lerdo</strong></p>
+<p><strong>Ingeniería Informática</strong></p>
+<p><strong>Materia:</strong> Administración y Organización de Datos</p>
+<p><strong>Alumno:</strong> Amador Chavero Vicuña</p>
+<p><strong>Docente:</strong> JESUS SALAS MARIN</p>
+<p><strong>Semestre:</strong> 2026</p>
+
+<h2>Introducción ejecutiva</h2>
+
+<p>
+El presente reporte describe el portafolio de proyectos desarrollados durante el semestre en la materia de Administración y Organización de Datos. Los proyectos realizados permiten demostrar la competencia de evaluar diferentes organizaciones de archivos aplicándolas a situaciones reales.
+</p>
+
+<p>
+Durante el semestre se trabajaron sistemas que utilizan archivos como medio de almacenamiento, consulta y procesamiento de información. Se utilizaron formatos como JSON, CSV y TXT, los cuales permitieron organizar datos estructurados, registros tabulares y bitácoras de eventos.
+</p>
+
+<p>
+El portafolio fue organizado en un repositorio público de GitHub con una arquitectura limpia, separando cada proyecto en carpetas individuales con su respectivo código fuente, carpeta src y documentación README.
+</p>
+
+<h2>Proyecto 1: Data Bridge</h2>
+
+<p>
+Este proyecto corresponde a la Actividad de Evaluación Corte 1. Su propósito es aplicar conceptos de organización de archivos mediante un sistema que permite transportar, almacenar y consultar datos usando archivos como medio de persistencia.
+</p>
+
+<p><strong>Tecnologías utilizadas:</strong> Python, PHP y HTML.</p>
+
+<p><strong>Formatos utilizados:</strong></p>
+<ul>
+<li>JSON: almacenamiento de datos estructurados.</li>
+<li>CSV: organización tabular de registros.</li>
+<li>TXT: registro simple de información o eventos.</li>
+</ul>
+
+<p><strong>Diagrama de arquitectura:</strong></p>
+<p>Usuario → Interfaz PHP/HTML → Procesamiento PHP/Python → Archivos JSON/CSV/TXT → Consulta de resultados en pantalla.</p>
+
+<p>
+<strong>Justificación:</strong> Se utilizó JSON porque permite representar información estructurada mediante objetos y listas. CSV se utilizó porque organiza registros en forma tabular, lo cual facilita su análisis. TXT se utilizó para registros simples y secuenciales.
+</p>
+
+<h2>Proyecto 2: Control de Acceso</h2>
+
+<p>
+Este proyecto simula un sistema de control de acceso utilizando Python, PHP y archivos planos. Permite validar usuarios mediante un ID de tarjeta y registrar los intentos en un archivo de auditoría.
+</p>
+
+<p><strong>Tecnologías utilizadas:</strong> PHP, HTML, CSS, Python y archivos locales.</p>
+
+<p><strong>Formatos utilizados:</strong></p>
+<ul>
+<li>JSON: almacenamiento estructurado de usuarios.</li>
+<li>TXT: bitácora o historial de eventos.</li>
+<li>CSV: registro tabular de accesos, si aplica.</li>
+</ul>
+
+<p><strong>Diagrama de arquitectura:</strong></p>
+<p>Usuario → Ingreso de ID de tarjeta → Script Python de validación → usuarios.json → auditoria.txt → Visualización en PHP.</p>
+
+<p>
+<strong>Justificación:</strong> JSON permite almacenar usuarios autorizados de forma estructurada. TXT se utilizó para la auditoría porque permite agregar registros de forma secuencial mediante escritura append.
+</p>
+
+<h2>Proyecto 3: Actividad Integradora C3</h2>
+
+<p>
+Este proyecto integra los conocimientos desarrollados durante el semestre sobre administración y organización de archivos, aplicándolos en un sistema funcional con manejo de datos mediante archivos.
+</p>
+
+<p><strong>Tecnologías utilizadas:</strong> Python y PHP.</p>
+
+<p><strong>Formatos utilizados:</strong></p>
+<ul>
+<li>JSON: manejo de información estructurada.</li>
+<li>CSV: almacenamiento tabular de registros.</li>
+<li>TXT: registro secuencial de eventos o datos simples.</li>
+</ul>
+
+<p><strong>Diagrama de arquitectura:</strong></p>
+<p>Usuario → Script de captura o procesamiento → Archivo CSV/JSON/TXT → Procesamiento de datos → Resultado final.</p>
+
+<p>
+<strong>Justificación:</strong> CSV permite almacenar información en filas y columnas, facilitando su lectura y procesamiento. JSON permite representar datos estructurados y TXT permite registrar información simple.
+</p>
+
+<h2>Proyecto 4: Evaluación General de Organización de Archivos</h2>
+
+<p>
+Este proyecto corresponde a la evaluación general de la materia Administración y Organización de Datos. Su propósito es analizar el funcionamiento de los proyectos desarrollados durante el semestre, considerando rendimiento, escalabilidad, estimación de uso y análisis costo-beneficio.
+</p>
+
+<p><strong>Tecnologías utilizadas:</strong> Python, PHP, HTML, archivos locales y herramientas de medición de rendimiento.</p>
+
+<p><strong>Formatos utilizados:</strong></p>
+<ul>
+<li>JSON: almacenamiento de información estructurada.</li>
+<li>CSV: registro de datos tabulares y resultados de pruebas.</li>
+<li>PDF: reporte final de ingeniería.</li>
+</ul>
+
+<p><strong>Diagrama de arquitectura:</strong></p>
+<p>Proyectos del portafolio → Pruebas de rendimiento → Resultados CSV/JSON → Gráficas y análisis → Reporte final PDF.</p>
+
+<h2>Evaluación general del sistema</h2>
+
+<h3>Estimación de uso y escalabilidad</h3>
+
+<p>
+Si el sistema recibe pocos registros, el tiempo de respuesta se mantiene bajo y el manejo de archivos es suficiente. Sin embargo, al aumentar la cantidad de registros, los archivos secuenciales pueden tardar más en consultarse, especialmente si no existe una estructura de búsqueda optimizada.
+</p>
+
+<p>
+Para una cantidad pequeña de registros, TXT, CSV y JSON funcionan correctamente. Para una cantidad mayor, sería recomendable aplicar búsquedas indexadas o migrar la información a una base de datos relacional.
+</p>
+
+<h3>Análisis costo-beneficio</h3>
+
+<table>
+<tr>
+<th>Elemento</th>
+<th>Costo</th>
+<th>Beneficio</th>
+</tr>
+<tr>
+<td>JSON</td>
+<td>Bajo</td>
+<td>Permite organizar datos estructurados.</td>
+</tr>
+<tr>
+<td>CSV</td>
+<td>Bajo</td>
+<td>Facilita el análisis de registros tabulares.</td>
+</tr>
+<tr>
+<td>TXT</td>
+<td>Bajo</td>
+<td>Permite guardar bitácoras simples.</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>Bajo</td>
+<td>Permite evidenciar el desarrollo y controlar versiones.</td>
+</tr>
+<tr>
+<td>Documentación README</td>
+<td>Medio</td>
+<td>Facilita la comprensión de cada proyecto.</td>
+</tr>
+</table>
+
+<h2>Conclusiones de ingeniería</h2>
+
+<p>
+Como conclusión, el alumno comprendió la importancia de organizar correctamente los archivos antes de trabajar con bases de datos relacionales. A través de los proyectos se aplicaron distintos formatos de almacenamiento, como JSON, CSV y TXT, identificando sus ventajas según el tipo de información manejada.
+</p>
+
+<p>
+También se reforzó la importancia de mantener una estructura limpia en los proyectos, documentar el funcionamiento del sistema y utilizar GitHub como herramienta para evidenciar el desarrollo.
+</p>
+
+<h2>Enlace al repositorio</h2>
+
+<p>
+Repositorio público:
+<br>
+https://github.com/luffy1980/Organizacion-Archivos-Portfolio
+</p>
+
+</body>
+</html>
