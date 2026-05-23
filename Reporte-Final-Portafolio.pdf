@@ -1,0 +1,437 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 2057 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Instituto Tecnologico Superior de Lerdo) Tj
+T*
+(Ingenieria Informatica) Tj
+T*
+(Administracion y Organizacion de Datos) Tj
+T*
+() Tj
+T*
+(REPORTE FINAL DEL PORTAFOLIO EN GITHUB) Tj
+T*
+() Tj
+T*
+(Alumno: Amador Chavero Vicuna) Tj
+T*
+(Docente: JESUS SALAS MARIN) Tj
+T*
+(Semestre: 2026) Tj
+T*
+() Tj
+T*
+(INTRODUCCION EJECUTIVA) Tj
+T*
+() Tj
+T*
+(El presente reporte describe el portafolio de proyectos desarrollados durante el) Tj
+T*
+(semestre en la materia de Administracion y Organizacion de Datos. Los proyectos) Tj
+T*
+(realizados permiten demostrar la competencia de evaluar diferentes organizaciones de) Tj
+T*
+(archivos aplicandolas a situaciones reales.) Tj
+T*
+() Tj
+T*
+(Durante el semestre se trabajaron sistemas que utilizan archivos como medio de) Tj
+T*
+(almacenamiento, consulta y procesamiento de informacion. Se utilizaron formatos como) Tj
+T*
+(JSON, CSV y TXT, los cuales permitieron organizar datos estructurados, registros) Tj
+T*
+(tabulares y bitacoras de eventos.) Tj
+T*
+() Tj
+T*
+(El portafolio fue organizado en un repositorio publico de GitHub con una arquitectura) Tj
+T*
+(limpia, separando cada proyecto en carpetas individuales con su respectivo codigo) Tj
+T*
+(fuente, carpeta src y documentacion README.) Tj
+T*
+() Tj
+T*
+(PROYECTO 1: DATA BRIDGE) Tj
+T*
+() Tj
+T*
+(Descripcion:) Tj
+T*
+(Este proyecto corresponde a la Actividad de Evaluacion Corte 1. Su proposito es) Tj
+T*
+(aplicar conceptos de organizacion de archivos mediante un sistema que permite) Tj
+T*
+(transportar, almacenar y consultar datos usando archivos como medio de persistencia.) Tj
+T*
+() Tj
+T*
+(Objetivo:) Tj
+T*
+(Desarrollar un sistema que permita manejar informacion mediante archivos, aplicando) Tj
+T*
+(operaciones de lectura, escritura, busqueda y organizacion de datos.) Tj
+T*
+() Tj
+T*
+(Tecnologias utilizadas:) Tj
+T*
+(Python, PHP y HTML.) Tj
+T*
+() Tj
+T*
+(Formatos de archivo:) Tj
+T*
+(JSON: almacenamiento de datos estructurados.) Tj
+T*
+(CSV: organizacion tabular de registros.) Tj
+T*
+(TXT: registro simple de informacion o eventos.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Length 2198 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Diagrama de arquitectura:) Tj
+T*
+(Usuario -> Interfaz PHP/HTML -> Procesamiento PHP/Python -> Archivos JSON/CSV/TXT ->) Tj
+T*
+(Consulta de resultados en pantalla.) Tj
+T*
+() Tj
+T*
+(Justificacion de formatos:) Tj
+T*
+(Se utilizo JSON porque permite representar informacion estructurada mediante objetos) Tj
+T*
+(y listas, facilitando la lectura desde Python o PHP. CSV se utilizo porque organiza) Tj
+T*
+(registros en forma tabular, lo cual facilita su analisis. TXT se utilizo para) Tj
+T*
+(registros simples y secuenciales, ya que permite escribir informacion de manera) Tj
+T*
+(ligera.) Tj
+T*
+() Tj
+T*
+(PROYECTO 2: CONTROL DE ACCESO) Tj
+T*
+() Tj
+T*
+(Descripcion:) Tj
+T*
+(Este proyecto simula un sistema de control de acceso utilizando Python, PHP y) Tj
+T*
+(archivos planos. Permite validar usuarios mediante un ID de tarjeta y registrar los) Tj
+T*
+(intentos en un archivo de auditoria.) Tj
+T*
+() Tj
+T*
+(Objetivo:) Tj
+T*
+(Desarrollar un sistema de control de acceso que permita registrar y consultar) Tj
+T*
+(informacion utilizando archivos como medio de almacenamiento.) Tj
+T*
+() Tj
+T*
+(Tecnologias utilizadas:) Tj
+T*
+(PHP, HTML, CSS, Python y archivos locales.) Tj
+T*
+() Tj
+T*
+(Formatos de archivo:) Tj
+T*
+(JSON: almacenamiento estructurado de usuarios o configuraciones.) Tj
+T*
+(TXT: bitacora o historial de eventos.) Tj
+T*
+(CSV: registro tabular de accesos, si aplica.) Tj
+T*
+() Tj
+T*
+(Diagrama de arquitectura:) Tj
+T*
+(Usuario -> Ingreso de ID de tarjeta -> Script Python de validacion -> usuarios.json) Tj
+T*
+(-> auditoria.txt -> Visualizacion en PHP.) Tj
+T*
+() Tj
+T*
+(Justificacion de formatos:) Tj
+T*
+(Se utilizo JSON porque permite almacenar usuarios autorizados de forma estructurada.) Tj
+T*
+(TXT se utilizo para la auditoria porque permite agregar registros de forma secuencial) Tj
+T*
+(mediante escritura append. Esto facilita guardar intentos de acceso sin modificar) Tj
+T*
+(todo el archivo.) Tj
+T*
+() Tj
+T*
+(PROYECTO 3: ACTIVIDAD INTEGRADORA C3) Tj
+T*
+() Tj
+T*
+(Descripcion:) Tj
+T*
+(Este proyecto integra los conocimientos desarrollados durante el semestre sobre) Tj
+T*
+(administracion y organizacion de archivos, aplicandolos en un sistema funcional con) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2050 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(manejo de datos mediante archivos.) Tj
+T*
+() Tj
+T*
+(Objetivo:) Tj
+T*
+(Desarrollar un sistema integrador que permita almacenar, procesar y consultar) Tj
+T*
+(informacion utilizando diferentes formatos de archivo y una estructura organizada de) Tj
+T*
+(software.) Tj
+T*
+() Tj
+T*
+(Tecnologias utilizadas:) Tj
+T*
+(Python y PHP.) Tj
+T*
+() Tj
+T*
+(Formatos de archivo:) Tj
+T*
+(JSON: manejo de informacion estructurada.) Tj
+T*
+(CSV: almacenamiento tabular de registros.) Tj
+T*
+(TXT: registro secuencial de eventos o datos simples.) Tj
+T*
+() Tj
+T*
+(Diagrama de arquitectura:) Tj
+T*
+(Usuario -> Script de captura o procesamiento -> Archivo CSV/JSON/TXT -> Procesamiento) Tj
+T*
+(de datos -> Resultado final.) Tj
+T*
+() Tj
+T*
+(Justificacion de formatos:) Tj
+T*
+(Se utilizo CSV porque permite almacenar informacion en filas y columnas, facilitando) Tj
+T*
+(su lectura y procesamiento. JSON permite representar datos estructurados cuando se) Tj
+T*
+(requiere mayor organizacion. TXT permite registrar informacion simple de manera) Tj
+T*
+(secuencial.) Tj
+T*
+() Tj
+T*
+(PROYECTO 4: EVALUACION GENERAL DE ORGANIZACION DE ARCHIVOS) Tj
+T*
+() Tj
+T*
+(Descripcion:) Tj
+T*
+(Este proyecto corresponde a la evaluacion general de la materia Administracion y) Tj
+T*
+(Organizacion de Datos. Su proposito es analizar el funcionamiento de los proyectos) Tj
+T*
+(desarrollados durante el semestre, considerando aspectos de rendimiento,) Tj
+T*
+(escalabilidad, estimacion de uso y analisis costo-beneficio.) Tj
+T*
+() Tj
+T*
+(Objetivo:) Tj
+T*
+(Evaluar de manera general los sistemas basados en archivos realizados durante el) Tj
+T*
+(semestre, identificando sus beneficios, limitaciones y posibles mejoras tecnicas.) Tj
+T*
+() Tj
+T*
+(Tecnologias utilizadas:) Tj
+T*
+(Python, PHP, HTML, archivos locales y herramientas de medicion de rendimiento.) Tj
+T*
+() Tj
+T*
+(Formatos de archivo:) Tj
+T*
+(JSON: almacenamiento de informacion estructurada.) Tj
+T*
+(CSV: registro de datos tabulares y resultados de pruebas.) Tj
+T*
+(PDF: reporte final de ingenieria.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2618 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Diagrama de arquitectura:) Tj
+T*
+(Proyectos del portafolio -> Pruebas de rendimiento -> Resultados CSV/JSON -> Graficas) Tj
+T*
+(y analisis -> Reporte final PDF.) Tj
+T*
+() Tj
+T*
+(Estimacion de uso y escalabilidad:) Tj
+T*
+(Si el sistema recibe pocos registros, el tiempo de respuesta se mantiene bajo y el) Tj
+T*
+(manejo de archivos es suficiente. Sin embargo, al aumentar la cantidad de registros,) Tj
+T*
+(los archivos secuenciales pueden tardar mas en consultarse, especialmente si no) Tj
+T*
+(existe una estructura de busqueda optimizada.) Tj
+T*
+() Tj
+T*
+(Para una cantidad pequena de registros, TXT, CSV y JSON funcionan correctamente. Para) Tj
+T*
+(una cantidad mayor, seria recomendable aplicar busquedas indexadas o migrar la) Tj
+T*
+(informacion a una base de datos relacional.) Tj
+T*
+() Tj
+T*
+(Analisis costo-beneficio:) Tj
+T*
+(El uso de archivos locales tiene un costo bajo porque no requiere servidores de base) Tj
+T*
+(de datos ni configuraciones avanzadas. El beneficio principal es que permite) Tj
+T*
+(comprender la organizacion de informacion, las operaciones de lectura y escritura, y) Tj
+T*
+(la importancia de estructurar correctamente los datos.) Tj
+T*
+() Tj
+T*
+(Tabla costo-beneficio:) Tj
+T*
+(JSON: costo bajo, beneficio alto para datos estructurados.) Tj
+T*
+(CSV: costo bajo, beneficio medio-alto para registros tabulares.) Tj
+T*
+(TXT: costo bajo, beneficio medio para bitacoras simples.) Tj
+T*
+(GitHub: costo bajo, beneficio alto como evidencia y control de versiones.) Tj
+T*
+(Documentacion README: costo medio, beneficio alto para explicar el sistema.) Tj
+T*
+() Tj
+T*
+(CONCLUSIONES DE INGENIERIA) Tj
+T*
+() Tj
+T*
+(Como conclusion, el alumno comprendio la importancia de organizar correctamente los) Tj
+T*
+(archivos antes de trabajar con bases de datos relacionales. A traves de los proyectos) Tj
+T*
+(se aplicaron distintos formatos de almacenamiento, como JSON, CSV y TXT,) Tj
+T*
+(identificando sus ventajas segun el tipo de informacion manejada.) Tj
+T*
+() Tj
+T*
+(Tambien se reforzo la importancia de mantener una estructura limpia en los proyectos,) Tj
+T*
+(documentar el funcionamiento del sistema y utilizar GitHub como herramienta para) Tj
+T*
+(evidenciar el desarrollo. El trabajo permitio observar que los archivos son utiles) Tj
+T*
+(para sistemas pequenos o medianos, pero que para sistemas con mayor cantidad de) Tj
+T*
+(informacion es necesario considerar tecnicas de indexacion o el uso de bases de) Tj
+T*
+(datos.) Tj
+T*
+() Tj
+T*
+(ENLACE AL REPOSITORIO) Tj
+T*
+() Tj
+T*
+(Repositorio publico:) Tj
+T*
+(https://github.com/luffy1980/Organizacion-Archivos-Portfolio) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R] /Count 4 >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000002188 00000 n 
+0000002315 00000 n 
+0000004565 00000 n 
+0000004692 00000 n 
+0000006794 00000 n 
+0000006921 00000 n 
+0000009591 00000 n 
+0000009718 00000 n 
+0000009794 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R >>
+startxref
+9845
+%%EOF
